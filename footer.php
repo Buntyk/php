@@ -2,7 +2,7 @@
         <table bgcolor="#1384A8" align="center" cellspacing="15" width="1300" class="topnav1">
             
             <tr align="center">
-               <td><h3><u>Newsletter</u></h3>
+               <td><h3><u><b>Newsletter<b></u></h3>
                 <p>Subscription to aware our latest destinations</p>
                 <div class="input-group">
                           <form action="#" method="post">
