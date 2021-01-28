@@ -1,0 +1,273 @@
+ body {font-family: Arial, Helvetica, sans-serif;}
+                      * {box-sizing: border-box;}
+                      .body{
+                       /* background-color: rgb(19,20,06);*/
+
+                      }
+                      .heading{
+                        font-family: 'Merienda One', cursive;
+                        font-size: 25px;
+                        font-weight: 0px;
+                      }
+                      .bg-img {
+                        /* The image used */
+                        background-image: url("tour.jpg");
+                        min-height: 500px;
+                        min-width: 200px;
+
+                        /* Center and scale the image nicely */
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        
+                        /* Needed to position the navbar */
+                        position: relative;
+                      }
+
+                      /* Position the navbar container inside the image */
+                      .container {
+                        top: 02px;
+                        position: center;
+                        margin: 05px;
+                        width: auto;
+
+                      }
+
+
+
+                      /* The main menu */
+                      .topnav {
+                       float: center;
+
+                        background-color: #1384A8;
+                        display: inline-flex;
+                        width: 1280px;
+                        
+
+                      }
+                      .topnav ul{
+                        
+                        box-shadow: currentColor;
+                        list-style: none;
+                        display: inline-flex;
+                        padding: 05px;
+                        font-family: 'Merienda One', cursive;
+                        letter-spacing: 02px;
+                        text-align: center;
+
+
+                      }
+                      .availability {
+                        font-family: 'Merienda One', cursive;
+
+                      }
+
+                      .sub-menu{
+                        display: none;
+                      }
+
+                      .topnav ul li:hover .sub-menu{
+                        display: block;
+                        position: absolute;
+                        background-color: #1384A8;
+                        margin-top: 55px;
+                        margin-left: -05px;
+                       font-family: 'Merienda One', cursive;
+
+
+                      }
+                      .topnav ul li:hover .sub-menu ul {
+                        display: block;
+                        margin: 12px;
+                        position: relative;
+                        text-align: center;
+                        margin-left: -05px;
+                      }
+                       .sub-menu1{
+                        display: none;
+                      }
+
+                      .topnav ul li:hover .sub-menu1{
+                        display: block;
+                        position: absolute;
+                        overflow: hidden;
+                        background-color: #1384A8;
+                        margin-top: 65px;
+                        margin-left:10px;
+                        margin-right: 35px;
+                       font-family: 'Merienda One', cursive;
+
+
+                      }
+                      .topnav ul li:hover .sub-menu1 ul {
+                        display: block;
+                        margin: 12px;
+                        position: relative;
+                        text-align: center;
+                        margin-left: 5px;
+                      }
+
+
+                      /* Navbar links */
+                      .topnav a {
+                        float: left;
+                        color: #f2f2f2;
+                        text-align: center;
+                        padding: 16px 20px;
+                        text-decoration: none;
+                        font-size: 20px;
+                        transition: all 3s ease;
+                        -webkit-transition: color 1s ease-in;
+                      }
+
+                      .topnav a:hover {
+                        background-color: orange;
+                        color: black;
+                      }
+                      .body.logo{
+                          display: inline-block;
+                          text-align: right;
+                          float: left;
+
+                      }
+                      .logo{
+                        font-family: 'Merienda One', cursive;
+                        font-size: 25px;
+                      }
+                      .logo {
+                        text-decoration: none;
+                        list-style: none;
+                      }
+                      .small-icons li{
+                      
+                        text-decoration: none;
+                        list-style: none;
+                        font-family: 'Merienda One', cursive;                    
+                      }
+
+                      .checked {
+                        color: orange;
+                      }
+                     /* .img-circle {
+                           width: 500px;
+                          height: 400px;
+                          background-image: url("tour.jpg");
+                          background-position: -25px -20px;  
+                          border-radius: 50%;
+                          background-size: cover;
+                        }*/
+                        .img-circle:hover {
+                          -ms-transform: scale(1.5); /* IE 9 */
+                          -webkit-transform: scale(0.5); /* Safari 3-8 */
+                          transform: scale(0.9); 
+                        }
+                       .box {
+                            width:520px;
+                            padding: 10px;
+                            border: 0px solid gray;
+                            margin: 0;
+                          }
+                          .button {
+                                padding: 15px 25px;
+                                font-size: 18px;
+                                text-align: center;
+                                cursor: pointer;
+                                outline: none;
+                                color: #fff;
+                                background-color: #7ABC87;
+                                border: none;
+                                border-radius: 10px;
+                                box-shadow: 0 9px #999;
+                               align-items: right;                              }
+
+                              .button:hover {
+                                background-color: #7ABC87; 
+                                -ms-transform: scale(1.5); /* IE 9 */
+                                -webkit-transform: scale(1.5); /* Safari 3-8 */
+                                transform: scale(0.9);
+                                l}
+
+                              .button:active {
+                                background-color: #3e8e41;
+                                box-shadow: 0 5px #666;
+                                transform: translateY(2px);
+                              }
+                              
+                              .heading h1 {
+                                  font-family: monospace; /* Web-safe typewriter-like font */
+                                  overflow: hidden; /* Ensures the content is not revealed until the animation */
+                                  border-right: 0em solid orange; /* The typwriter cursor */
+                                  white-space: nowrap; /* Keeps the content on a single line */
+                                  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+                                  letter-spacing: .15em; /* Adjust as needed */
+                                  animation: typing 3.5s steps(30, end), blinking-cursor .5s step-end ;
+                                }
+                               .img-circle {
+                                    width: 600px;
+                                    height: 350px;
+                                    background: url("manali.jpg") center no-repeat;
+                                  background-size: cover;
+                                  clip-path: polygon(0% 220%, 120% 120%, 160% 0%, 100% 50%, 160% 80%, 60% 80%, 0% 180%);
+                                  animation: clips 9s ease infinite;
+                                }
+
+                                @keyframes clips {
+                                  50% {
+
+                                clip-path: polygon(40% 0%, 20% 30%, 100% 30%, 100% 80%, 30% 80%, 40% 100%, 0% 50%)
+                                  }
+                                }                            
+
+
+                        /* The typing effect */
+                        @keyframes typing {
+                          from { width: 0 }
+                          to { width: 100% }
+                        }
+
+                        /* The typewriter cursor effect */
+                        @keyframes blinking-cursor {
+                          from, to { border-color: transparent }
+                          60% { border-color: orange; }
+                        }
+                        .logo label{
+                          display: inline-block;
+                          text-align: right;
+                        }
+                        .manali-back{
+                          background-color: #1384A8;
+                        }
+
+                        /*FOOTER*/
+
+                         .topnav1{
+
+                        box-shadow: currentColor;
+                        list-style: none;
+                        display: inline-flex;
+                        padding: 0px;
+                        font-family: 'Merienda One', cursive;
+                        letter-spacing: 0px;
+                        text-align: center;
+                        color: white;
+
+
+                      }
+                      .logo i {
+                        
+                         float: right;
+                         padding: 6px;
+
+                      }
+                      .logo input{
+                        float: right;
+                        padding: 6px;
+                      }
+                      .logo input[type=text] {
+                        font-size: 17px;
+
+
+                      }
+                      .tr {
+                         font-family: 'Merienda One', cursive;
+                      }
