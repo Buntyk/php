@@ -31,7 +31,5 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
-        run: |provider "azurerm" {
-  version = "~>2.2.0"
-  features {}
-}
+        run: provider "azurerm" {
+
